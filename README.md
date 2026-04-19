@@ -3,13 +3,19 @@
 📌** Project Overview**
 
 This project analyzes BrightTV’s user viewership data to generate actionable insights that support Customer Value Management (CVM) in growing the subscription base.
+
 Using data analytics, we explore user behavior, engagement patterns, and content performance to recommend strategies for acquisition, retention, and engagement growth.
 
 🎯 **Objectives**
+
 Analyze user and usage trends
+
 Identify key drivers of content consumption
+
 Segment audiences for targeted strategies
+
 Provide data-driven recommendations to increase subscriptions
+
 Support CVM team in achieving annual growth targets
 
 📊 **Raw Dataset Description**
