@@ -51,18 +51,22 @@ Visualization
 Dashboards and pivot tables created for insights
 
 📈 ** Key Insights**
+
 🚀** Growth Trends**
+
 10,000 sessions analyzed
 +119% growth from January to March
 Growth driven by event-based content (sports)
 
 ⏰ **Usage Patterns**
+
 Peak viewing: 17:00 – 21:00 (32%)
 Low activity: 00:00 – 06:00 (<8%)
 Saturday = highest engagement
 Monday = lowest performance
 
-📺 **Content Performance*
+📺 **Content Performance**
+
 Top performers:
 Live Sports (highest engagement)
 Music channels
@@ -70,12 +74,14 @@ Low performers:
 Kids and news channels
 
 👥 **Audience Insights**
+
 88% Male audience
 Majority are young adults(25-34 yrs)
 55% concentrated in Gauteng & Western Cape
 Significant female audience gap (growth opportunity)
 
 🧠 **Business Insights**
+
 What Drives Consumption?
 Time of day
 Content type (sports, music)
@@ -83,6 +89,7 @@ Demographics (age, gender)
 Geographic location
 
 💡** Recommendations**
+
 📅 Content Strategy
 Introduce Monday Night Premieres
 Strengthen morning programming (news + kids)
@@ -105,13 +112,15 @@ Introduce free tier to attract new users
 Convert to paid subscriptions
 
 📊 **Tools & Technologies**
-SQL
-Databricks
+
+Miro
+Canva
+Databricks (SQL)
 Microsoft Excel
-Pivot Tables
-Data Visualization Tools
+Lovable.dev (presentation)
 
 📅** Project Roadmap**
+
 Days 0–3
 Data Ingestion & Understanding
 Baseline metrics
@@ -127,6 +136,7 @@ Compiled CEO-ready presentation
 Recommendations
 
 **Key KPIs**
+
 Increase average session time (9.1 → 11 mins)
 Grow female audience (10% → 25%)
 Increase Monday engagement (+25%)
@@ -134,16 +144,19 @@ Improve retention post-events (>70%)
 Boost conversion rate (≥18%)
 
 📎**Deliverables**
+
 Data analysis report
 Pivot tables & dashboards
 CVM strategy presentation
 Actionable business recommendations
 
 👤** Author**
+
 Polite Masego Molatlhegi
 
 Agricultural Economist | Data Analyst/ Scientist| Aspiring Econometrician
 Skills: SQL, Data Analysis, Econometrics, Research, Business Strategy
 
 📢 **Final Note**
+
 This project demonstrates how data-driven decision-making can transform customer engagement and drive subscription growth in digital media platforms.
