@@ -19,6 +19,7 @@ Provide data-driven recommendations to increase subscriptions
 Support CVM team in achieving annual growth targets
 
 📊 **Raw Dataset Description**
+
 The  dataset consists of two main tables:
 
 1. User Profile Data
@@ -39,6 +40,7 @@ Duration2
 userid
 
 ⚙️ **Data Pipeline**
+
 Data Source
 CSV files (Excel)
 ETL Process
