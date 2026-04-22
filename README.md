@@ -1,170 +1,107 @@
-📺** BrightTV CVM Strategy & Viewership Analytics**
+**BrightTV CVM Strategy and Viewership Analytics**
 
-📌** Project Overview**
+**Project Overview**
 
-This project analyzes BrightTV’s user viewership data to generate actionable insights that support Customer Value Management (CVM) in growing the subscription base.
+- BrightTV is a subscription-based digital television platform offering content across sports, music, news, and entertainment.
+  
+- This project analyzes user viewership data to generate insights that support Customer Value Management (CVM) strategies aimed at growing and retaining the subscription base.
+  
+- The analysis focuses on user behavior, engagement patterns, and content performance to inform data-driven decision-making.
 
-Using data analytics, we explore user behavior, engagement patterns, and content performance to recommend strategies for acquisition, retention, and engagement growth.
+**Problem Statement**
 
-🎯 **Objectives**
+- BrightTV aims to increase subscriptions and improve customer retention in a competitive digital media market.
+  
+- Limited insight into user behavior, engagement drivers, and audience segmentation restricts effective strategic decision-making.
 
-Analyze user and usage trends
+**Aim of the Project**
 
-Identify key drivers of content consumption
+- To apply data analytics techniques to generate actionable insights that enhance customer acquisition, engagement, and retention.
 
-Segment audiences for targeted strategies
+**Objectives**
 
-Provide data-driven recommendations to increase subscriptions
+- Analyze user behavior and viewership trends
+- Identify key drivers of content consumption
+- Segment audiences for targeted strategies
+- Evaluate content performance across channels
+- Provide data-driven recommendations to support CVM growth
 
-Support CVM team in achieving annual growth targets
+**Dataset Description**
 
-📊 **Raw Dataset Description**
+- The analysis is based on two primary datasets:
+  
+  - User Profile Data: demographic and user identification variable
+    
+  - Viewership Data: channel activity, viewing duration, and timestamps
 
-The  dataset consists of two main tables:
+Methods
 
-1. User Profile Data
-UserID
-Name
-Surname
-Email
-Gender
-Age
-Race
-Province
-Social Media Handle
-3. Viewership Data
-UserID
-Channel2
-RecordDate2
-Duration2
-userid
+- Data cleaning and preprocessing, including handling missing values and standardizing formats
+  
+- Data transformation and aggregation using SQL
+  
+- Exploratory Data Analysis (EDA) to identify trends and pattern
+  
+- Feature engineering to derive variables such as peak usage periods and engagement levels
+  
+- Audience segmentation based on demographics and viewing behavior
 
-⚙️ **Data Pipeline**
+**Summary of Results**
 
-Data Source
-CSV files (Excel)
-ETL Process
-Data cleaning (handling NULLs, formatting)
-Data transformation
-Data Ingestion
-Loaded into Databricks
-Schema and tables created
-Data Processing (SQL)
-Aggregations
-Feature engineering
-Exploratory Data Analysis (EDA)
-Data Storage
-Processed tables stored in Databricks
-Visualization
-Dashboards and pivot tables created for insights
+- Viewership growth was driven largely by event-based content, particularly live sports
+  
+- Peak engagement occurs during evening hours, with weekends showing higher activity levels
+  
+- Sports and music content outperform other categories in driving user engagement
+  
+- The user base is predominantly young and male, indicating an opportunity to expand audience diversity
+  
+- Geographic concentration highlights potential for growth in underserved regions
 
-📈 ** Key Insights**
+**Key Takeaways**
 
-🚀** Growth Trends**
+- Content type, timing, and demographics are key drivers of user engagement
+  
+- Retention strategies should leverage consistent high-performing content
+  
+- There is strong growth potential in targeting underrepresented segments, particularly female audiences
+  
+- Data-driven segmentation improves targeting, engagement, and conversion outcomes
+  
+- Insights from user behavior can directly support strategic decisions in subscription-based and financial models
 
-10,000 sessions analyzed
-+119% growth from January to March
-Growth driven by event-based content (sports)
+**Recommendations**
 
-⏰ **Usage Patterns**
+- Optimize content scheduling during low-engagement periods, particularly early weekdays
+  
+- Leverage high-performing content such as live sports to improve retention
+  
+- Develop targeted strategies to attract underrepresented audience segments
+  
+- Expand into underserved regions through localized content strategies
+  
+- Implement personalized communication and CRM strategies to improve retention and conversion
 
-Peak viewing: 17:00 – 21:00 (32%)
-Low activity: 00:00 – 06:00 (<8%)
-Saturday = highest engagement
-Monday = lowest performance
+**Tools and Technologies**
 
-📺 **Content Performance**
+- Databricks (SQL): Used for data ingestion, cleaning, transformation, and querying to generate analytical datasets and perform aggregations
+  
+- Microsoft Excel: Used for data validation and visualization, including pivot tables and summary dashboards to support exploratory analysis
+  
+- Miro: Applied for structuring the project workflow and developing analytical mind maps to guide the CVM strategy
+  
+- Canva: Used to design project visuals, including the project Gantt chart and supporting presentation elements
+  
+- Lovable.dev: Used to compile and present insights in a clear, structured, and executive-ready format
 
-Top performers:
-Live Sports (highest engagement)
-Music channels
-Low performers:
-Kids and news channels
+**Author**
 
-👥 **Audience Insights**
+- Polite Masego Molatlhegi
+  
+- Agricultural Economist and Data Analyst
+  
+- Skills: SQL, R, STATA, SPSS, Data Analysis, Econometrics, Research, Business Development, Business Strategy
 
-88% Male audience
-Majority are young adults(25-34 yrs)
-55% concentrated in Gauteng & Western Cape
-Significant female audience gap (growth opportunity)
+**Final Note**
 
-🧠 **Business Insights**
-
-What Drives Consumption?
-Time of day
-Content type (sports, music)
-Demographics (age, gender)
-Geographic location
-
-💡** Recommendations**
-
-📅 Content Strategy
-Introduce Monday Night Premieres
-Strengthen morning programming (news + kids)
-Expand afternoon movies and series
-Optimize low-performing channels
-👩 Target Female Audience
-Lifestyle and entertainment content
-Influencer-driven campaigns
-🌍 Geographic Expansion
-Focus on underserved provinces
-Localized content strategy
-⚽ Sports Strategy
-Leverage live sports as a retention engine
-Build consistent programming around events
-📩 CRM Strategy
-Personalized notifications
-Win-back campaigns (especially Mondays)
-🆓 Freemium Model
-Introduce free tier to attract new users
-Convert to paid subscriptions
-
-📊 **Tools & Technologies**
-
-Miro
-Canva
-Databricks (SQL)
-Microsoft Excel
-Lovable.dev (presentation)
-
-📅** Project Roadmap**
-
-Days 0–3
-Data Ingestion & Understanding
-Baseline metrics
-Days 4-6
-Data Cleaning & Preparation
-Days 7-11
-EDA
-Days 12-13
-Visualization & Dashboarding
-Days 14-15
-Developed CVM strategies
-Compiled CEO-ready presentation
-Recommendations
-
-**Key KPIs**
-
-Increase average session time (9.1 → 11 mins)
-Grow female audience (10% → 25%)
-Increase Monday engagement (+25%)
-Improve retention post-events (>70%)
-Boost conversion rate (≥18%)
-
-📎**Deliverables**
-
-Data analysis report
-Pivot tables & dashboards
-CVM strategy presentation
-Actionable business recommendations
-
-👤** Author**
-
-Polite Masego Molatlhegi
-
-Agricultural Economist | Data Analyst/ Scientist| Aspiring Econometrician
-Skills: SQL, Data Analysis, Econometrics, Research, Business Strategy
-
-📢 **Final Note**
-
-This project demonstrates how data-driven decision-making can transform customer engagement and drive subscription growth in digital media platforms.
+- This project demonstrates how data analytics can be used to understand customer behavior, optimize engagement strategies, and support growth in subscription-based platforms, with strong relevance to banking, financial services, and customer-focused industries.
